@@ -18,3 +18,30 @@
   text-decoration: none;
   color: #fff;
 }
+
+#productosD .producto {
+  position: relative;
+  width: 30%;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  margin: 15px 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+#productosD .producto p {
+  position: absolute;
+  bottom: -100px;
+  padding: 25px;
+  background: rgba(31, 64, 255, 0.562);
+  color: #fff;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+#productosD .producto:hover p {
+  bottom: -15px;
+}
