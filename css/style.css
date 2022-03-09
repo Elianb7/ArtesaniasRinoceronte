@@ -45,3 +45,33 @@
 #productosD .producto:hover p {
   bottom: -15px;
 }
+
+.titulo{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size:30px;
+}
+.container1{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.c img{
+  width: 220px;
+  height: 280px;
+  border-radius: 30px;
+}
+.c{
+ margin: 15px; 
+ 
+}
+
+.c p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
